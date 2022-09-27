@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-70wpoe5rz7x&^*y*ndtaye2t@%0n3hf=5$h_r$24_b_o7%mdxx
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'todo_list',
         'HOST': 'localhost',
         'USER': 'root',
